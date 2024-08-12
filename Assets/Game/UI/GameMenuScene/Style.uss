@@ -1,0 +1,220 @@
+.overlay {
+    flex-grow: 1;
+    position: absolute;
+    left: 12.5%;
+    top: 16%;
+    right: initial;
+    bottom: auto;
+    -unity-background-scale-mode: scale-to-fit;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    opacity: 1;
+    display: flex;
+    visibility: visible;
+    overflow: visible;
+    width: 75%;
+    height: 75%;
+    justify-content: center;
+    align-self: center;
+}
+
+.game-name {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    top: 41%;
+}
+
+.selection {
+    top: 35%;
+    width: 80%;
+    align-self: center;
+    background-color: rgb(255, 243, 155);
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 4px;
+    padding-left: 0;
+    margin-left: 0;
+    border-left-color: rgba(253, 247, 248, 0.99);
+    border-right-color: rgba(253, 247, 248, 0.99);
+    border-top-color: rgba(253, 247, 248, 0.99);
+    border-bottom-color: rgba(253, 247, 248, 0.99);
+    border-top-width: 7px;
+    border-right-width: 7px;
+    border-bottom-width: 7px;
+    border-left-width: 7px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    -unity-font-style: bold;
+}
+
+.selection:hover {
+    background-color: rgb(255, 246, 0);
+}
+
+.selection:active {
+    width: 80%;
+    height: auto;
+    background-color: rgb(236, 158, 26);
+    border-left-color: rgba(195, 57, 6, 0.94);
+    border-right-color: rgba(195, 57, 6, 0.94);
+    border-top-color: rgba(195, 57, 6, 0.94);
+    border-bottom-color: rgba(195, 57, 6, 0.94);
+}
+
+.slider {
+    top: 44%;
+    align-self: stretch;
+    justify-content: space-between;
+    -unity-text-align: middle-left;
+    -unity-font-definition: url('project://database/Assets/StandardResource/Font/Chakra_Petch,Protest_Strike/Chakra_Petch/ChakraPetch-Bold%20SDF.asset?fileID=11400000&guid=395014c438fc42246a28a18fa499ea07&type=2#ChakraPetch-Bold SDF');
+}
+
+.slider:hover {
+    color: rgb(245, 224, 64);
+    -unity-font-definition: url('project://database/Assets/StandardResource/Font/Chakra_Petch,Protest_Strike/Chakra_Petch/ChakraPetch-Bold%20SDF.asset?fileID=11400000&guid=395014c438fc42246a28a18fa499ea07&type=2#ChakraPetch-Bold SDF');
+}
+
+.keyboard-label {
+    font-size: 51px;
+}
+
+.keyboard-button {
+    align-self: center;
+    font-size: 24px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 200px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.keyboard-button:hover {
+    background-color: rgb(241, 236, 44);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.keyboard-button:active {
+    -unity-background-image-tint-color: rgb(243, 56, 56);
+    background-color: rgb(236, 39, 39);
+    border-left-color: rgb(245, 160, 38);
+    border-right-color: rgb(245, 160, 38);
+    border-top-color: rgb(245, 160, 38);
+    border-bottom-color: rgb(245, 160, 38);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.buttoninreplay {
+    -unity-font-definition: url('project://database/Assets/StandardResource/Font/Chakra_Petch,Protest_Strike/Chakra_Petch/ChakraPetch-Bold%20SDF.asset?fileID=11400000&guid=395014c438fc42246a28a18fa499ea07&type=2#ChakraPetch-Bold SDF');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(238, 180, 71);
+    border-right-color: rgb(238, 180, 71);
+    border-top-color: rgb(238, 180, 71);
+    border-bottom-color: rgb(238, 180, 71);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    background-color: rgb(226, 236, 55);
+    font-size: 183%;
+    -unity-font-style: normal;
+    max-height: none;
+    min-height: auto;
+    align-self: center;
+}
+
+.buttoninreplay:hover {
+    background-color: rgb(245, 151, 52);
+    border-left-color: rgb(248, 41, 41);
+    border-right-color: rgb(248, 41, 41);
+    border-top-color: rgb(248, 41, 41);
+    border-bottom-color: rgb(248, 41, 41);
+}
+
+.buttoninreplay:active {
+    background-color: rgb(241, 24, 24);
+}
+
+.slider #unity-drag-container {
+    display: flex;
+    visibility: visible;
+    background-color: rgb(236, 219, 37);
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    overflow: hidden;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+.slider #unity-tracker {
+    flex-grow: 1;
+    background-color: rgb(73, 79, 66);
+    top: 0;
+    position: relative;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.slider #unity-dragger-border {
+}
+
+.slider #unity-dragger {
+    width: 20px;
+    height: 100%;
+    top: 0;
+    flex-grow: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: rgb(254, 255, 0);
+}
+
+.slider Label {
+    display: none;
+}
+
+.bar {
+    width: 2000px;
+    height: 100%;
+    background-color: rgb(255, 128, 37);
+    align-self: flex-end;
+}
+
+.newDragger {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(57, 102, 236, 0);
+    background-image: url('project://database/Assets/StandardResource/FreeButtonSet/Textures/buttons/button_round_400.png?fileID=21300000&guid=60c4dbe9e87500a4480a6214bdc5cc87&type=3#button_round_400');
+}

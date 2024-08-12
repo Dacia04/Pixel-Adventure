@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/GameMenuScene/Style.uss?fileID=7433441132597879392&amp;guid=aad810341b5ab6f4084b611edd0e1fc3&amp;type=3#Style" />
+    <ui:VisualElement style="flex-grow: 1; top: 5%;">
+        <ui:VisualElement name="SettingTable" class="overlay" style="position: absolute; left: 12.5%; top: 16%; right: initial; bottom: auto; background-image: url(&apos;project://database/Assets/StandardResource/2D%20Casual%20UI/Sprite/GUI.png?fileID=21300054&amp;guid=1eaee135ce037439d925cee5e41ce026&amp;type=3#GUI_27&apos;); -unity-text-align: upper-left; align-items: center; justify-content: space-around; align-self: center; flex-direction: column; width: 75%; height: 85%;">
+            <ui:Label tabindex="-1" text="KEYBOARD" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Keyboard" class="gameMenu" style="-unity-background-scale-mode: scale-to-fit; -unity-font-style: bold; font-size: 80px; margin-top: 2px; margin-left: 5px; -unity-text-align: upper-center; top: -17%; left: auto; height: 324px; width: 835px; -unity-font-definition: url(&apos;project://database/Assets/StandardResource/Font/Chakra_Petch,Protest_Strike/Chakra_Petch/ChakraPetch-Bold%20SDF.asset?fileID=11400000&amp;guid=395014c438fc42246a28a18fa499ea07&amp;type=2#ChakraPetch-Bold SDF&apos;); flex-direction: row;">
+                <ui:VisualElement name="movement" style="flex-grow: 1; top: 133px; left: -41px;">
+                    <ui:VisualElement name="up" style="flex-grow: 1; flex-direction: row; align-items: center;">
+                        <ui:Label tabindex="-1" text="Up" parse-escape-sequences="true" display-tooltip-when-elided="true" name="up-label" class="keyboard-label" />
+                        <ui:Button text="up arrow" parse-escape-sequences="true" display-tooltip-when-elided="true" name="up-button" class="keyboard-button" style="left: 75px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="down" style="flex-grow: 1; flex-direction: row; align-items: center;">
+                        <ui:Label tabindex="-1" text="Down" parse-escape-sequences="true" display-tooltip-when-elided="true" name="down-label" class="keyboard-label" />
+                        <ui:Button text="down arrow" parse-escape-sequences="true" display-tooltip-when-elided="true" name="down-button" class="keyboard-button" style="left: 2px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="left" style="flex-grow: 1; flex-direction: row; align-items: center;">
+                        <ui:Label tabindex="-1" text="Left" parse-escape-sequences="true" display-tooltip-when-elided="true" name="left-label" class="keyboard-label" />
+                        <ui:Button text="left arrow" parse-escape-sequences="true" display-tooltip-when-elided="true" name="left-button" class="keyboard-button" style="left: 34px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="right" style="flex-grow: 1; flex-direction: row; align-items: center;">
+                        <ui:Label tabindex="-1" text="Right" parse-escape-sequences="true" display-tooltip-when-elided="true" name="right-label" class="keyboard-label" />
+                        <ui:Button text="right arrow" parse-escape-sequences="true" display-tooltip-when-elided="true" name="right-button" class="keyboard-button" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="action" style="flex-grow: 1; left: 49px; top: 140px;">
+                    <ui:VisualElement name="jump" style="flex-grow: 1; flex-direction: row; top: -18px; align-self: stretch; align-items: center;">
+                        <ui:Label tabindex="-1" text="Jump" parse-escape-sequences="true" display-tooltip-when-elided="true" name="jump-label" class="keyboard-label" />
+                        <ui:Button text="Space" parse-escape-sequences="true" display-tooltip-when-elided="true" name="jump-button" class="keyboard-button" style="left: 136px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="wall-climb" style="flex-grow: 1; flex-direction: row; align-self: stretch; align-items: center; top: -45px;">
+                        <ui:Label tabindex="-1" text="Wall Climb" parse-escape-sequences="true" display-tooltip-when-elided="true" name="wall-climb-label" class="keyboard-label" />
+                        <ui:Button text="C" parse-escape-sequences="true" display-tooltip-when-elided="true" name="wall-climb-button" class="keyboard-button" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="pause" style="flex-grow: 1; flex-direction: row; align-self: stretch; align-items: center; top: -77px;">
+                        <ui:Label tabindex="-1" text="Pause" parse-escape-sequences="true" display-tooltip-when-elided="true" name="pause-label" class="keyboard-label" />
+                        <ui:Button text="R" parse-escape-sequences="true" display-tooltip-when-elided="true" name="pause-button" class="keyboard-button" style="left: 118px; white-space: nowrap;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:VisualElement name="GameLabel" class="game-name" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/StandardResource/2D%20Casual%20UI/Sprite/GUI.png?fileID=21300104&amp;guid=1eaee135ce037439d925cee5e41ce026&amp;type=3#GUI_59&apos;); width: 55%; height: 55%; -unity-background-scale-mode: scale-to-fit; left: 22.5%; top: -17%; position: absolute; align-items: center; align-self: center; justify-content: space-between; font-size: 23px;">
+            <ui:Label tabindex="-1" text="ADVENTURE PIXEL" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: center; justify-content: center; align-self: center; top: 36%; font-size: 93%; -unity-font-style: bold; -unity-background-scale-mode: scale-to-fit; -unity-text-align: middle-center; white-space: nowrap; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; rotate: 1deg; -unity-font-definition: url(&apos;project://database/Assets/StandardResource/Font/Protest_Strike/ProtestStrike-Regular%20SDF.asset?fileID=11400000&amp;guid=748679cdb6e81fb4b9bf62dcfb37b0ed&amp;type=2#ProtestStrike-Regular SDF&apos;); color: rgb(226, 71, 39); text-overflow: clip; -unity-text-outline-width: 0; text-shadow: 0 0 0 rgba(0, 0, 0, 0); letter-spacing: 0; scale: 1 1; transform-origin: 49%; translate: 0 0; -unity-slice-scale: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button name="back-button" text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" class="selection" style="-unity-background-scale-mode: scale-to-fit; align-self: center; justify-content: flex-start; font-size: 62px; align-items: stretch; -unity-text-align: middle-center; white-space: nowrap; -unity-font-definition: url(&apos;project://database/Assets/StandardResource/Font/Chakra_Petch,Protest_Strike/Chakra_Petch/ChakraPetch-Bold%20SDF.asset?fileID=11400000&amp;guid=395014c438fc42246a28a18fa499ea07&amp;type=2#ChakraPetch-Bold SDF&apos;); width: 15%; top: -13%;" />
+</ui:UXML>

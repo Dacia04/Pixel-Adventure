@@ -1,0 +1,47 @@
+VisualElement {
+}
+
+.slider {
+    font-size: 45px;
+}
+
+.selection {
+    -unity-font-definition: url('project://database/Assets/StandardResource/Font/Chakra_Petch,Protest_Strike/Chakra_Petch/ChakraPetch-Bold%20SDF.asset?fileID=11400000&guid=395014c438fc42246a28a18fa499ea07&type=2#ChakraPetch-Bold SDF');
+    font-size: 26px;
+    background-color: rgb(250, 246, 96);
+    border-left-color: rgb(250, 174, 37);
+    border-right-color: rgb(250, 174, 37);
+    border-top-color: rgb(250, 174, 37);
+    border-bottom-color: rgb(250, 174, 37);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    top: -53px;
+    height: -1%;
+    min-height: auto;
+}
+
+.selection:hover {
+    background-color: rgba(253, 164, 70, 0.99);
+    border-left-color: rgb(241, 121, 35);
+    border-right-color: rgb(241, 121, 35);
+    border-top-color: rgb(241, 121, 35);
+    border-bottom-color: rgb(241, 121, 35);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.selection:active {
+    background-color: rgb(248, 87, 22);
+    border-left-color: rgba(255, 42, 42, 0);
+    border-right-color: rgba(255, 42, 42, 0);
+    border-top-color: rgba(255, 42, 42, 0);
+    border-bottom-color: rgba(255, 42, 42, 0);
+}

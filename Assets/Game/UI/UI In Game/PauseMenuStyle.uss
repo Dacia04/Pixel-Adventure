@@ -1,0 +1,33 @@
+VisualElement {
+    -unity-text-align: middle-left;
+    width: auto;
+}
+
+.selection {
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    height: auto;
+    align-items: center;
+    width: auto;
+    -unity-background-scale-mode: scale-to-fit;
+    margin-right: 15px;
+    min-height: auto;
+}
+
+.selection:hover {
+    -unity-background-image-tint-color: rgb(248, 235, 64);
+}
+
+.selection:active {
+    -unity-background-image-tint-color: rgb(255, 150, 76);
+}

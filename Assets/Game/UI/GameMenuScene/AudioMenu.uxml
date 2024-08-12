@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="CustomSlider" src="project://database/Assets/Game/UI/GameMenuScene/CustomSlider.uxml?fileID=9197481963319205126&amp;guid=438dd6693423f5d4a83e9d91b1672602&amp;type=3#CustomSlider" />
+    <Style src="project://database/Assets/Game/UI/GameMenuScene/Style.uss?fileID=7433441132597879392&amp;guid=aad810341b5ab6f4084b611edd0e1fc3&amp;type=3#Style" />
+    <ui:VisualElement style="flex-grow: 1; top: 5%;">
+        <ui:VisualElement name="SettingTable" class="overlay" style="position: absolute; left: 12.5%; top: 16%; right: initial; bottom: auto; background-image: url(&apos;project://database/Assets/StandardResource/2D%20Casual%20UI/Sprite/GUI.png?fileID=21300054&amp;guid=1eaee135ce037439d925cee5e41ce026&amp;type=3#GUI_27&apos;); -unity-text-align: upper-left; align-items: center; justify-content: space-around; align-self: center; flex-direction: column;">
+            <ui:Label tabindex="-1" text="AUDIO" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Audio" class="gameMenu" style="-unity-background-scale-mode: scale-to-fit; -unity-font-style: bold; font-size: 94px; margin-top: 2px; margin-left: 5px; -unity-text-align: upper-center; top: -23%; left: auto; height: 324px; width: 835px; -unity-font-definition: url(&apos;project://database/Assets/StandardResource/Font/Chakra_Petch,Protest_Strike/Chakra_Petch/ChakraPetch-Bold%20SDF.asset?fileID=11400000&amp;guid=395014c438fc42246a28a18fa499ea07&amp;type=2#ChakraPetch-Bold SDF&apos;);">
+                <ui:VisualElement name="master-slider" style="flex-grow: 1; flex-direction: row; align-self: center; width: 711px; top: 54%; left: 2%; height: 157px;">
+                    <ui:Instance template="CustomSlider" name="CustomSlider" />
+                </ui:VisualElement>
+                <ui:VisualElement name="music-slider" style="flex-grow: 1; flex-direction: row; align-self: center; width: 711px; top: 78%; left: 2%; height: 157px;">
+                    <ui:Instance template="CustomSlider" name="CustomSlider" />
+                </ui:VisualElement>
+                <ui:VisualElement name="VFX-slider" style="flex-grow: 1; flex-direction: row; align-self: center; width: 711px; top: 103%; left: 2%; height: 157px;">
+                    <ui:Instance template="CustomSlider" name="CustomSlider" />
+                </ui:VisualElement>
+                <ui:Button name="back-button" text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" class="selection" style="-unity-background-scale-mode: scale-to-fit; align-self: center; justify-content: flex-start; font-size: 62px; align-items: stretch; -unity-text-align: middle-center; white-space: nowrap; top: 116%;" />
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:VisualElement name="GameLabel" class="game-name" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/StandardResource/2D%20Casual%20UI/Sprite/GUI.png?fileID=21300104&amp;guid=1eaee135ce037439d925cee5e41ce026&amp;type=3#GUI_59&apos;); width: 55%; height: 55%; -unity-background-scale-mode: scale-to-fit; left: 22.5%; top: -17%; position: absolute; align-items: center; align-self: center; justify-content: space-between; font-size: 23px;">
+            <ui:Label tabindex="-1" text="ADVENTURE PIXEL" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: center; justify-content: center; align-self: center; top: 36%; font-size: 93%; -unity-font-style: bold; -unity-background-scale-mode: scale-to-fit; -unity-text-align: middle-center; white-space: nowrap; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; rotate: 1deg; -unity-font-definition: url(&apos;project://database/Assets/StandardResource/Font/Protest_Strike/ProtestStrike-Regular%20SDF.asset?fileID=11400000&amp;guid=748679cdb6e81fb4b9bf62dcfb37b0ed&amp;type=2#ProtestStrike-Regular SDF&apos;); color: rgb(226, 71, 39); text-overflow: clip; -unity-text-outline-width: 0; text-shadow: 0 0 0 rgba(0, 0, 0, 0); letter-spacing: 0; scale: 1 1; transform-origin: 49%; translate: 0 0; -unity-slice-scale: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
